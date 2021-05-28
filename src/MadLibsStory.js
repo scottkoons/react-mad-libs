@@ -1,4 +1,5 @@
 import React from 'react';
+import './MadLibsStory.css';
 
 const MadLibsStory = ({ setShowStory, setStory, story }) => {
   const restart = () => {

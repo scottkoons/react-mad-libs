@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './MadLibsForm.css';
 
 const MadLibsForm = ({ setShowStory, createStory }) => {
   const INITIAL_STATE = { noun: '', noun2: '', adjective: '', color: '' };
